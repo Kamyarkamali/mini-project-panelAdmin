@@ -1,12 +1,12 @@
 import './App.css'
-
-import TodoList from './Components/TodoList/TodoList'
+import Home from './Components/Home/Home'
 
 function App() {
+ 
 
   return (
     <>
-      <TodoList/>
+    <Home/>
     </>
   )
 }
