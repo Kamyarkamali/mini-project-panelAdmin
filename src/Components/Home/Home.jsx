@@ -4,6 +4,7 @@ import Header from '../Header/Header'
 import Menu from '../Menu/Menu';
 import Hero from '../Hero/Dashboard';
 import Charts from "../Charts/Charts";
+import Tabalse from '../Tabales/Tabalse';
 
 //Icon
 const menu="https://cdn-icons-png.flaticon.com/128/168/168214.png";
@@ -32,7 +33,7 @@ function Home() {
 
   return (
     <div className='flex '>
-      <img className='w-[30px] h-[30px] relative z-40' src={menu} alt="/" onClick={()=>setOpen(!open)}/>
+      {open ?<img className='w-[20px] h-[20px] mt-3 ml-2 relative z-40' src={menu} alt="/" onClick={()=>setOpen(!open)}/> : <img src={closed} className='w-[30px] h-[30px] relative z-40' onClick={()=>setOpen(!open)}/>}
       {!open&&<div className='basis-[11%] h-[100vh] z-30 border absolute bg-blue-800'>
           <div className='flex justify-end px-3'>
           </div>
@@ -42,6 +43,7 @@ function Home() {
             <Header/>
             <Hero/>
             <Charts/>
+            <Tabalse/>
         </div>
     </div>
   )

@@ -76,11 +76,11 @@ function Charts() {
   },[])
 
 
-  const transformData=state.map((item)=>({
+  const transformData=state.length>0 ? state.map((item)=>({
     name:item.name,
     uv: item.uv,
     pv: item.pv,
-  }))
+  })) : []
 
     return (
         <div className='flex justify-center h-[300px] max-w-[1200px]'>

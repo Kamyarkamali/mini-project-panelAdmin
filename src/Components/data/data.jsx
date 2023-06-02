@@ -8,4 +8,18 @@ const data=[
 ]
 
 
+const dataTabale=[
+    { name: 'علی رضایی', userName: 'alirezai', email: 'ali@example.com', comment: 'تعریف وبلاگ بسیار خوبی است.' },
+    { name: 'مریم کاظمی', userName: 'maryamkazemi', email: 'maryam@example.com', comment: 'من عاشق مطالب این وبلاگ هستم.' },
+    { name: 'حسن رحمانی', userName: 'hassanrahmani', email: 'hassan@example.com', comment: 'متاسفانه مطالب این وبلاگ بی‌ارزش است.' },
+    { name: 'زهرا محمدی', userName: 'zahramohammadi', email: 'zahra@example.com', comment: 'بسیار مفید و کاربردی است. ممنونم.' },
+    { name: 'امیر میرزایی', userName: 'amirmirzaei', email: 'amir@example.com', comment: 'وبلاگ شما بهترین وبلاگ است.' },
+    { name: 'سارا احمدی', userName: 'saraahmadi', email: 'sara@example.com', comment: 'مطالب شما را بیشتر دوست دارم.' },
+    { name: 'محمدرضا خلیلی', userName: 'mohammadkh', email: 'mohammad@example.com', comment: 'وبلاگ بسیار جالبی دارید.' },
+    { name: 'نگار رحمانی', userName: 'negarrahmani', email: 'negar@example.com', comment: 'وبلاگ شما بسیار آموزنده است.' },
+    { name: 'علی محمدی', userName: 'alimohammadi', email: 'ali@example.com', comment: 'متن‌های شما بسیار قابل فهم هستند.' },
+]
+
+
 export default data;
+export {dataTabale};
